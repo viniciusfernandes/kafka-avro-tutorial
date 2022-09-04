@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "namespace": "com.kafkatutorial.avro",
+  "name": "Order",
+  "version": "1",
+  "fields": [
+    { "name": "number", "type": "string", "doc": "The ID of this order" },
+    { "name": "creationDate", "type": "string", "doc": "The creation date of this order" },
+    { "name": "description", "type": "string", "doc": "The description of this order" },
+    { "name": "value", "type": "float", "doc": "The total value of this order" },
+    { "name": "customerEmail", "type": "string",  "doc": "The email of the customer" }
+  ]
+}

@@ -1,0 +1,12 @@
+kafka:
+    bootstrapAddress: localhost:9092
+    topic:
+        customer: customer
+        order: order
+    group:
+        market: market
+        financial: financial
+
+schema:
+    registry:
+        url: localhost:2181
