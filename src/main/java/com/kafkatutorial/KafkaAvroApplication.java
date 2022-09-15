@@ -20,6 +20,11 @@ public class KafkaAvroApplication implements CommandLineRunner {
     private OrderKafkaProducer orderKafkaProducer;
 
     public static void main(String[] args) {
+        System.out.println("XXXXXXXXXXXXXXXXXXXXX");
+        System.out.println("XXXXXXXXXXXXXXXXXXXXX");
+        System.out.println("\nKAFKA AVRO TUTORIAL\n");
+        System.out.println("XXXXXXXXXXXXXXXXXXXXX");
+        System.out.println("XXXXXXXXXXXXXXXXXXXXX");
         SpringApplication.run(KafkaAvroApplication.class, args);
     }
 
